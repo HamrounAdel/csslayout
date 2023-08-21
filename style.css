@@ -1,0 +1,220 @@
+body {
+  font-weight: 400;
+  font-family: Roboto,Arial,sans-serif;
+  color: #747474;
+  padding-top: 0px;
+  -webkit-font-smoothing: antialiased;
+  
+  }
+
+  span{
+    color: #31b7c6;
+   }
+  /*****************partie header ****************************/
+  header {
+    position: sticky;
+    top: 0;
+    padding: 0  40px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .navmenu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .navmenu a {
+    text-decoration: none;
+    color: #484551;
+  }
+  .navmenu a:hover {
+    text-decoration: underline;
+    color: #4fa3db;
+  }
+  .navmenu li {
+    font-weight: 550;
+    font-size: 14px;
+    margin: 23px 0px;
+    padding: 0 12px;
+  }
+  
+   
+@media (max-width: 600px) {
+    .nav-links{
+      display: none;
+    } }
+
+    .nav-links a {
+      font-size: 12px;
+      text-decoration: underline;
+    }
+   
+    /*********************partie main*****************/
+    /**********section1**********/
+    .sectin1{
+       
+        padding: 30px 200px;
+        text-align: center;
+         }
+    .center
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+      
+    }
+
+    /**************section2************/
+
+
+    .divtxt{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px  90px;
+    }
+
+    /**********section3************/
+
+
+    .blocksect{
+      
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 100px;
+    }
+    .blockdiv1{
+      border: 3px  solid white;
+      background-color: aqua;
+      padding: 80px;
+    }
+    .blockdiv2{
+      border: 3px  solid white;
+      background-color: rgb(84, 20, 222);
+      padding: 80px;
+    }
+    .blockdiv3{
+      border: 3px  solid white;
+      background-color: rgb(72, 77, 77);
+      padding: 80px;
+    }
+
+
+    /*****************section 4********************/
+
+    .sect4{
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 20px;
+    }
+    .Mydiv{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+    }
+      
+    .logo
+    {
+      
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      height: 40%;
+      
+    }
+
+    /*****************section5**********************/
+
+.sect5{
+  padding: 20px 20px;
+  background-color: #a7e6dc;
+  display: flex;
+  justify-content: space-between;
+}
+.div5{
+  padding: 20px;
+  display:  inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+
+}
+.block1{
+  padding: 20px 40px;
+  background-color: white;
+  border: #484551;
+  margin: 30px 0;
+}
+
+    /********************section6*****************/
+
+.txtsect6{
+  padding: 10px 30px;
+   text-align: center;
+ }
+
+
+    /*********section 7***********/
+
+    .country-section {
+      padding: 0px 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 30px 0;
+      
+    }
+    .country {
+      margin-bottom: 20px;
+    }
+
+    .country button{
+      padding: 5px 0px;
+      border: 1px solid #4fa3db;
+      background-color: #4fa3db;
+      color: #f2fafa;
+      float: right;
+     border-radius: 5px;
+      font-weight: normal;
+      font-size: 13px;
+    text-align: center;
+    }
+
+    /*************section8*************/
+
+    .btn{
+      padding: 10px 10px;
+      border: 1px solid #4fa3db;
+      background-color: #4fa3db;
+      color: #f2fafa;
+      border-radius: 5px;
+      font-weight: normal;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /***************partier footer********************/
+    
+
+    footer {
+      margin: 0;
+      padding: 0;
+    }
+   
+    .footer-message {
+      text-align: center;
+      padding: 25px 40px;
+      font-size: 16px;
+     
+      margin-bottom: 0;
+    }
+    footer span {
+      text-decoration: underline;
+      color: #3027ea;
+    }
